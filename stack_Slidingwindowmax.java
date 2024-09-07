@@ -22,6 +22,8 @@ for(int i=0;i<maximum.length;i++)    {
 
 
 //stack se tough hai per queue se ho jayega
+
+
 // class Solution {
 //     public int[] maxSlidingWindow(int[] nums, int k) {
 //         Deque<Integer> q = new ArrayDeque<>();

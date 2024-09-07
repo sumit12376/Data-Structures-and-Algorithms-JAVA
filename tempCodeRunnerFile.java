@@ -1,1 +1,1 @@
- //   res[0]=(q.isEmpty())?0:q.peek();
+mp.put( "sumit",27);
