@@ -1,1 +1,1 @@
-mp.put( "sumit",27);
+ isvisited[sr][sc] = false; //backtracking

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class  remove_a{
+public class  rec_remove_a{
     static String remove_a(String s, int idx) {
         if (idx == s.length()) {
             return "";

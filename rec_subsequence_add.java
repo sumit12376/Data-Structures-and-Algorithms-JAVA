@@ -1,4 +1,4 @@
-public class subsequence_add {
+public class rec_subsequence_add {
         static void printSubsequences(int[] s,int n,int idx,int sum) {
             if (idx>=n) {
                 System.out.println(sum);

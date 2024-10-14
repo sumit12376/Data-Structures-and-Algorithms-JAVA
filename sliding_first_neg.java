@@ -7,7 +7,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueueWindowSize {
+public class sliding_first_neg {
     static int[] printFirstNegativeInteger(int a[], int n, int k) {
         Queue<Integer> q = new LinkedList<>();
       int index=0;
