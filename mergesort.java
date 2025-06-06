@@ -6,7 +6,9 @@ public class mergesort {
     }
 
     static void mergeSortalgo(int[] arr, int l, int r) {
-
+        if (l >= r) {
+            return;
+        }
         int mid = (l + r) / 2;
         mergeSortalgo(arr, l, mid);
         mergeSortalgo(arr, mid + 1, r);
@@ -40,16 +42,17 @@ public class mergesort {
         }
         while (i < n1) {
             arr[k++] = left[i++];
+        }
             while (j < n2) {
                 arr[k++] = right[j++];
-            }
+           
         }
     }
 
     public static void main(String[] args) {
         int[] arr = { 79, 100, 3, 50, 22, 868, 93939, 2, 5, 3, 5, 3, 3, 3, 6, 6, 6, 78, 2 };
-        int r = arr.length;
-        mergeSortalgo(arr, 0, r - 1);
+        int r = arr.length-1;
+        mergeSortalgo(arr, 0, r);
         System.out.println("array aftre sorting");
         displayarr(arr);
     }

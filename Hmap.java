@@ -34,7 +34,8 @@ public class Hmap {
         System.out.println(mp.values());
 
         //getting all entries in hashmap
-        System.out.println(mp.entrySet());
+        System.out.println("allllllllllllllllllllll"+mp.entrySet());
+       
 
         //traversing all the entris of hashmap-multiple method
         for (String key : mp.keySet()) {

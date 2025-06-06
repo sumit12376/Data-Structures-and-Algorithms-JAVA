@@ -25,5 +25,5 @@
      int c=count(a);
      System.out.println(c);
     
-   }
+   }}
 

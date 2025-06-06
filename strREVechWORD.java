@@ -3,7 +3,9 @@ public class strREVechWORD {
         String ans="";
         String str="I am sumit vikram";
         StringBuilder sb=new StringBuilder("");
-        for(int i=str.length();i<0;i++){
+        // for(int i = str.length() - 1; i >= 0; i--){
+        for(int i = 0; i < str.length() ; i++)
+{
             char ch=str.charAt(i);
             if(ch !=' '){
                 sb.append(ch);
